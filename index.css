@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+body{
+    background-color:green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    width: 100vw;
+}
+
+#cedarville-cursive-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.edit-header{
+    background-color: rgb(7, 78, 7);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: white; 
+    width: 1000px;
+    justify-content: center;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.config-search{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#E0EEEE;
+    border:solid 2px #055a0d;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    justify-content: center;
+    margin: 5px auto;
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:300px;
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#0d6905;
+}
+
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.config-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 5px 15px;
+    padding: 10px 10px;
+    color:white;
+    background-color: transparent; 
+}
+
+.config-bgcolor{
+    background-color: transparent;
+}
+
+.config-box01{
+    padding: 3px 3px; 
+    height: 25px;
+    text-align: center;
+    font-size: 23px;
+    flex-wrap: wrap;
+    margin: 5px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.config-box02{
+    padding: 3px 3px;
+}
+
+.config-bgcolor{
+    padding: 3px 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+      
+
+.config-box03{
+    padding: 3px 3px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.config-footer{
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    text-align: center;
+    border: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(1, 44, 1);
+}
